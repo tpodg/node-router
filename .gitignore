@@ -1,0 +1,22 @@
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode
+
+# Npm
+node_modules
+package-lock.json
+pnpm-lock.yaml
+
+# Dist
+build
+
+# OSX
+.DS_Store
+
+# Local environment
+.env
