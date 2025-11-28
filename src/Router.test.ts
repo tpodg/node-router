@@ -36,7 +36,7 @@ describe('Http methods', () => {
         expect(response.text).toBe('response');
     });
 
-    it('Should configure POSY', async () => {
+    it('Should configure POST', async () => {
         const router = new Router();
         router.post('/request', (req, res) => {
             res.end('response');
